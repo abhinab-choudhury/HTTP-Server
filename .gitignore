@@ -58,4 +58,6 @@ dkms.conf
 http_server
 CMakeFiles
 Makefile
+cmake_install.cmake
+CMakeCache.txt
 # End of https://www.toptal.com/developers/gitignore/api/c
