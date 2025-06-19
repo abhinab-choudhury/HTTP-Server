@@ -1,0 +1,6 @@
+Hello there!
+
+This is a simple message stored inside a .txt file.
+You can use it to test your HTTP server's static file serving capabilities.
+
+- Happy Coding!
