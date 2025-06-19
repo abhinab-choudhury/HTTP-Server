@@ -1,4 +1,4 @@
-# HTTP Server in C
+# HTTP Server from Scratch
 
 > [Resource](https://beej.us/guide/bgnet/html/) 
 
