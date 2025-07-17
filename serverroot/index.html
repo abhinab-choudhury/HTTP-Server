@@ -1,27 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>xkcd Comic Viewer</title>
-  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <div class="container">
-    <h1 class="title">Server</h1>
-    <p class="subtitle">Welcome! The server is up and running smoothly.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>index.html | HTTP SERVER - C</title>
+        <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Server</h1>
+            <p class="subtitle">
+                Welcome! The server is up and running smoothly.
+            </p>
 
-    <button id="toggleComic">Show XKCD Comic</button>
+            <button id="toggleComic">Show XKCD Comic</button>
 
-    <div id="comicCard" class="card hidden">
-      <a class="caption" href="./assets/server_problem.png">
-        <img src="./assets/server_problem.png" alt="Server Comic" class="comic-img" />
-      </p>
-    </div>
-    <a class="caption" href="./assets/message.txt">message.txt</p>
-  </div>
+            <div id="comicCard" class="card hidden">
+                <a class="caption" href="assets/server_problem.png">
+                    <img
+                        src="assets/server_problem.png"
+                        alt="Server Comic"
+                        class="comic-img"
+                    />
+                </a>
+            </div>
+            <a class="caption" href="assets/message.txt">message.txt</a>
+        </div>
 
-  <script src="./scripts.js"></script>
-</body>
+        <script src="scripts.js"></script>
+    </body>
 </html>
