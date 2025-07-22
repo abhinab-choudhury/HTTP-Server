@@ -3,6 +3,8 @@
 > A lightweight and minimal HTTP server written in C, based on low-level socket programming.
 > Inspired by [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/).
 
+<img width="1437" height="876" alt="Screenshot_20250722_220251" src="https://github.com/user-attachments/assets/70fca4b9-5bfd-44c9-bc68-f881467ee797" />
+
 This server is built from scratch to help understand how HTTP works at the socket level. It supports serving static files such as HTML, CSS, JavaScript, and images over HTTP/1.0 and HTTP/1.1 protocols.
 
 ---
